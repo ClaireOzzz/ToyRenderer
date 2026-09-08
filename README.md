@@ -13,3 +13,14 @@ The scope of this project is to implement a simple but well-rounded renderer tha
 - [ ] Basic GUI for scene control
 - [ ] G-Buffer pass
 - [ ] Shading pass 
+
+## Libraries Used
+* cmake
+* GLM.
+* GLAD.
+* GLFW.
+* stb_image. found [here](https://github.com/nothings/stb/blob/master/stb_image.h)
+
+## To Build (only tested in windows)
+* Ensure above libraries are installed (using vcpkg or other helper)
+* Build with cmake
