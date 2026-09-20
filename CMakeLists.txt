@@ -30,4 +30,5 @@ target_link_libraries(
     glad
     )
 
-target_include_directories(opengl_renderer PRIVATE "C:/Users/clair/Desktop/vcpkg")
+#  location for include directories
+target_include_directories(opengl_renderer PRIVATE ${LOCATION})
